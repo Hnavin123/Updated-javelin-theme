@@ -1,18 +1,30 @@
 
 .div1{
-    width: 100%;
-    height: 950px;  
-    padding: 50px;
-    
-    background-color: rgb(43,43,43);
-    
+  width: 100%;
+  height: 950px;  
+  padding: 50px;
+  background-color: rgb(43,43,43); 
   }
   #top-margin{
     margin-top: 150px;
   }
   .title-heading{
+    color: white;
     font-size: 80px;
-    
+
+  }
+  .title-heading2{
+    color: black;
+    font-size: 50px;
+  }
+  .title-heading2 span{
+    color: blueviolet;
+
+  }
+  
+  .title-heading span{
+    color: blueviolet;
+    display: block;
   }
 .desc{
   margin-top: 100px;
@@ -108,4 +120,21 @@
   .rotating_image{
     height: 100px;
     
+  }
+
+  /* Harsh Custom Class */
+.heading1{
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+  .align-center{
+    text-align: center;
+  }
+  .heading1 span{
+    color: blueviolet;
+
+  }
+  .about-section{
+    padding-top: 100px;
+    padding-bottom: 100px;
   }
