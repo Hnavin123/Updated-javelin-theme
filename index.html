@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="javelin.css">
+    <link rel="stylesheet" href="style.css">
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
@@ -19,11 +19,9 @@
 <body>
     <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
-            <!-- Left side: Javelin -->
             <a class="navbar-brand" href="#">Javelin</a>
             
-            <!-- Center: Menu items -->
-            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <div class="collapse navbar-collapse  id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
                         <a class="nav-link" href="#">Home</a>
@@ -58,17 +56,17 @@
         <div class="container-fluid">
             <div class="container">
                 <div class="row">
-                    <div class="col-5" style="margin-top: 150px;">
+                    <div class="col-5" id="top-margin" >
                         
-                            <h1 style="color: white;"><span style="font-size: 80px;">Lifestyle</span></h1>
-                            <h1 style="color: white;"> <span style="font-size: 80px;">Smart</span> <span style="color: blueviolet;"><span style="font-size:80px">Watch</span></span></h1>
+                            <h1  class="title-heading"  id="t-h" ><span style="color: white;">Lifestyle</span></h1>
+                            <h1  class="title-heading" id="t-h" style="color: white;"> <span style="color: blueviolet;">Watch</span></h1>
 
-                            <div class="desc" style="font-size: 30px;">
-                                <p style="margin-top: 100px;"><span style="color: white;">TECHNOLOGY OF THE FUTURE</span></p>
+                            <div class="desc" >
+                                <p >TECHNOLOGY OF THE FUTURE</p>
                             </div>
 
                             <div class="disc">
-                                <p style="margin-top: 50px;"><span style="color: white;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, aliquid. Lorem ipsum dolor sit amet consectetur</span></p>
+                                <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, aliquid. Lorem ipsum dolor sit amet consectetur</p>
                             </div>    
                     </div>
                     <div class="col-6 offset-1">
@@ -80,26 +78,26 @@
     </div>
 
     <div class="container-fluid">
-        <div class="container" style="margin-top: 200px;">
+        <div class="container-about"  id="about" >
             <div class="row">
-                <div class="col" style="text-align: center;">
-                    <p style="font-weight: 1000;"><span style="color: rgb(172,163,186);" >ABOUT OUR WATCHES</span></p>
+                <div id="about" >
+                    <p id="abt" >ABOUT OUR WATCHES</p>
                 </div>
             </div>
         </div>
 
-        <div class="container" >
+        <div class="container-about" >
             <div class="row" >
-                <div class="col" style="text-align: center;">
-                    <h1  style="font-size: 60px;"><span style="color: blueviolet;">New</span> <span  style="color: black;">,</span> <span style="color: blueviolet;">Improved</span><span style="color: black;"> Design</span></h1>
-                    <h1 style="font-size: 60px;"><span style="color: black;">and Performance</span></h1>
+                <div class="col-perform" >
+                    <h1 style="color: rgb(172,163,186);" ><span style="color: blueviolet;">New</span> <span  style="color: black;">,</span> <span style="color: blueviolet;">Improved</span><span style="color: black;"> Design</span></h1>
+                    <h1 ><span style="color: black;">and Performance</span></h1>
                 </div>
             </div>
         </div>
 
         <div class="container">
-            <div class="row" style="margin-top: 50px;">
-                <div class="col-6 offset-3" style="text-align: center;">
+            <div class="row-abt" >
+                <div class="col-6 offset-3" >
                     <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia commodi recusandae distinctio , hic consequuntur.</h5>
                 </div>
             </div>
@@ -167,40 +165,7 @@
                           <span class="visually-hidden">Next</span>
                         </button>
                     </div>  
-                    <!-- <style>
-                        .image-container {
-                          
-                            display: flex;
-                            flex-wrap: wrap;
-                            gap: 10px;
-                            justify-content: center;
-                            align-items: center;
-                    
-                        }
-                    
-                        .fixed-size-image {
-                            width: 500px;
-                            /* Fixed width */
-                            height: 600px;
-                            /* Fixed height */
-                            object-fit: cover;
-                        }
-                    </style> -->
-                    <!-- <div class="image-container">
-                        <img src=
-                    "https://jevelin.shufflehound.com/single-product/wp-content/uploads/sites/29/2018/03/gallery6.jpg"
-                            alt="photo" class="fixed-size-image" />
-                        <img src=
-                    "https://jevelin.shufflehound.com/single-product/wp-content/uploads/sites/29/2018/03/gallery5.jpg" 
-                             alt="photo"
-                            class="fixed-size-image" />
-                        <img src=
-                    "https://jevelin.shufflehound.com/single-product/wp-content/uploads/sites/29/2018/03/gallery7.jpg" 
-                             alt="photo"
-                            class="fixed-size-image" />
-                         
-                    </div> -->
-
+                   
                 
 
                 </div>
@@ -216,18 +181,19 @@
                     <img src="https://jevelin.shufflehound.com/single-product/wp-content/uploads/sites/29/2018/03/Replace-screen-inside-this-SO3-1.jpg" alt="">
                 </div>
                 <div class="col-5 offset-2">
-                    <p style="font-weight: 1000;"><span style="color:  rgb(172,163,186);">MEET WITH OUR</span></p>
-                    <h1 style="font-size: 60px;"><span style="font-weight: 700;">Splendid Features</span></h1>
+                    
+                    <p id="abt"> MEET WITH OUR</p>
+                    <h1 id="features" >Splendid Features</h1>
                     <div style="margin-top: 100px;">
-                        <h5 style="font-weight: 700;"><span>Voice Recognization</span></h5>
+                        <h5 id="sub-h" ><span>Voice Recognization</span></h5>
                         <p><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, necessitatibus!</span></p>
                     </div>
                     <div style="margin-top: 80px;">
-                        <h5 style="font-weight: 700;"><span>Connect with  your phone</span></h5>
+                        <h5 id="sub-h"><span>Connect with  your phone</span></h5>
                         <p><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur ipsa ratione dolorem obcaecati magnam ullam.</span></p>
                     </div>
                     <div style="margin-top: 80px;">
-                        <h5 style="font-weight: 700;"><span>Any task at hand</span></h5>
+                        <h5 id="sub-h"><span>Any task at hand</span></h5>
                         <p><span> Pariatur ipsa ratione dolorem obcaecati magnam ullam. Lorem ipsum dolor sit amet consectetur.</span></p>
                     </div>
                     
@@ -240,10 +206,10 @@
         <div class="container">
             <div class="row" style="margin-top: 300px;">
                 <div class="col-5">
-                    <p style="font-weight: 1000;"><span style="color:  rgb(172,163,186);">Now Upgrad For</span></p>
-                    <h1 style="font-size: 60px;"><span style="font-weight: 700;">Best Experience</span></h1>
+                    <p id="abt">Now Upgrad For</p>
+                    <h1 id="features">Best Experience</span></h1>
                     <div style="margin-top: 100px;">
-                        <h5 style="font-weight: 700;"><span>+ Increased storage</span></h5>
+                        <h5 id="sub-h"><span>+ Increased storage</span></h5>
                         <p><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, necessitatibus!</span></p>
                         <div class="progress">
                             <div class="progress-bar" role="progressbar" style="width: 30%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
@@ -251,7 +217,7 @@
                     </div>
 
                     <div style="margin-top: 100px;">
-                        <h5 style="font-weight: 700;"><span>+ Battery Life</span></h5>
+                        <h5 id="sub-h"><span>+ Battery Life</span></h5>
                         <p><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, necessitatibus!</span></p>
                         <div class="progress">
                             <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
@@ -259,7 +225,7 @@
                     </div>
 
                     <div style="margin-top: 100px;">
-                        <h5 style="font-weight: 700;"><span>+ Display Surface</span></h5>
+                        <h5 id="sub-h"> + Display Surface</h5>
                         <p><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, necessitatibus!</span></p>
                         <div class="progress">
                             <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
@@ -278,9 +244,9 @@
         <div class="container" style="height: 1500px;">
             <div class="row" style="margin-top: 250px;">
                 <div class="col-8" style="margin-top: 150px;">
-                    <p style="font-weight: 1000;"><span style="color:  rgb(172,163,186);">HOW IT WORKS</span></p>
-                    <h1 style="font-size: 60px;"><span style="font-weight: 700;"><span style="color: blueviolet;">See for yourself.</span></span></h1>
-                    <h1 style="font-size: 60px;"><span style="font-weight: 700;">Quick video introduction</span></h1>
+                    <div id="abt">HOW IT WORKS</div>
+                    <h1 id="features"  style="color: blueviolet;">See for yourself.</h1>
+                    <h1 id="features">Quick video introduction</h1>
                     <p style="margin-top: 50px;"><span style="font-size: 20px;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus cupiditate quidem officia voluptatibus animi vero deleniti error nihil nisi accusantium?</span></p>
                 </div>
                     
@@ -294,39 +260,39 @@
         </div>
     </div>
 
-    <div class="container-fluid" style="background-color: rgb(54,54,54);">
+    <div class="container-fluid" id="bggcolor" >
         <div  style="height: 1200px;">
             <div class="row" style="text-align: center;">
                 <div class="col" style="margin-top: 150px;">
-                    <p style="font-weight: 1000;"><span style="color:  rgb(172,163,186);">ADJUSTABLE STRAPS</span></p>
-                    <h1 style="font-size: 60px;"><span style="font-weight: 700;"><span style="color: white;">Choose the best</span></span></h1>
-                    <h1 style="font-size: 60px;"><span style="font-weight: 700;"><span style="color: white;">color for your activity</span></span></h1>
+                    <p id="abt">ADJUSTABLE STRAPS</span></p>
+                    <h1 id="features"><span style="color: white;">Choose the best</span></span></h1>
+                    <h1 id="features"><span style="color: white;">color for your activity</span></span></h1>
                 </div>
             </div>
 
             <div style="margin-top: 100px;">
                 <div class="row" style="justify-content: center;">
-                    <div class="column" style="background-color:rgb(43,43,43);">
-                        <div style="margin-top: 100px;">
-                            <p style="text-align: center;"><span style="color: white;">WRIST BAND</span></p>
-                            <h1 style="text-align: center;"><span style="color: rgb(153,255,238);"> <span style="font-weight: 700;">Mint green</span></span></h1>
-                            <h2 style="text-align: center;"><span style="margin-top: 100px;"> <span style="color: white;">$25.50</span></span></h2>
+                    <div class="column" id="wristbcolor" >
+                        <div class="wrist-band" >
+                            <p ><span style="color: white;">WRIST BAND</span></p>
+                            <h1 id="wristf"><span style="color: rgb(153,255,238);"> Mint green</span></h1>
+                            <h2 id="wcolor" > $25.50</h2>
                         </div>
                      
                     </div>
-                    <div class="column" style="background-color:rgb(43,43,43);">
-                        <div style="margin-top: 100px;">
-                            <p style="text-align: center;"><span style="color: white;">WRIST BAND</span></p>
-                            <h1 style="text-align: center;"><span style="color: rgb(206,169,255);"> <span style="font-weight: 700;">Purple Berry</span></span></h1>
-                            <h2 style="text-align: center;"><span style="margin-top: 100px;"> <span style="color: white;">$25.50</span></span></h2>
+                    <div class="column" id="wristbcolor" >
+                        <div class="wrist-band" >
+                            <p style="color: white;">WRIST BAND</p>
+                            <h1 id="wristf" style="color: rgb(206,169,255);"> Purple Berry</h1>
+                            <h2  id="wcolor" >$25.55</h2>
                         </div>
                      
                     </div>
-                    <div class="column" style="background-color:rgb(43,43,43);">
-                        <div style="margin-top: 100px;">
-                            <p style="text-align: center;"><span style="color: white;">WRIST BAND</span></p>
-                            <h1 style="text-align: center;"><span style="color: rgb(243,181,96);"> <span style="font-weight: 700;">Golden Sunset</span></span></h1>
-                            <h2 style="text-align: center;"><span style="margin-top: 100px;"> <span style="color: white;">$25.50</span></span></h2>
+                    <div class="column" id="wristbcolor" >
+                        <div  class="wrist-band" >
+                            <p  style="color: white;">WRIST BAND</p>
+                            <h1 id="wristf" style="color: rgb(243,181,96);"> Golden Sunset</h1>
+                            <h2 id="wcolor" > $25.50</h2>
                         </div>
                      
                     </div>
@@ -357,8 +323,8 @@
            <div class="container">
             <div class="row" style="margin-top: 150px;">
                 <div class="col-4 offset-4" style="text-align: center;">
-                    <h1 style="font-size: 60px;"><span style="font-weight: 700;">What our </span></h1>
-                    <h1 style="font-size: 60px;"><span style="font-weight: 700;">customers say </span></h1>
+                    <h1 id="features">What our </h1>
+                    <h1 id="features"> customers say </h1>
 
                   <div id="carouselExampleIndicators1" class="carousel slide" style="margin-top: 100px;">
                         <div class="carousel-indicators">
@@ -391,73 +357,7 @@
                     </div> 
 
 
-                  <!--    <style>
-                        .item-h {
-                            height: 380px;
-                            width: 280px;
-                        }
-                    
-                        .img-h {
-                            height: 50%;
-                            border-radius: 50%;
-                        }
-                    </style>
-                    <div id="carouselExampleIndicators" 
-                    class="carousel slide" 
-                    data-bs-ride="carousel">
-                    <div class="carousel-indicators">
-                       <button type="button" 
-                               data-bs-target="#carouselExampleIndicators" 
-                               data-bs-slide-to="0" 
-                               class="active"
-                               aria-current="true" 
-                               aria-label="Slide 1">
-                         </button>
-                       <button type="button" 
-                               data-bs-target="#carouselExampleIndicators" 
-                               data-bs-slide-to="1"
-                               aria-label="Slide 2">
-                         </button>
-                       <button type="button" 
-                               data-bs-target="#carouselExampleIndicators" 
-                               data-bs-slide-to="2"
-                               aria-label="Slide 3">
-                         </button>
-                    </div>
-                    <div class="carousel-inner">
-                       <div class="carousel-item active item-h">
-                           <img src=
-                    "https://media.geeksforgeeks.org/wp-content/uploads/20240227040907/CSS_text_representation.png"
-                               class="d-block img-h w-100" alt="...">
-                       </div>
-                       <div class="carousel-item item-h">
-                           <img src=
-                    "https://media.geeksforgeeks.org/wp-content/uploads/20240311051456/js-min.jpg"
-                               class="d-block img-h w-100" alt="...">
-                       </div>
-                       <div class="carousel-item item-h">
-                           <img src=
-                    "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20190710102234/download3.png"
-                               class="d-block w-100 img-h" alt="...">
-                       </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" 
-                           data-bs-target="#carouselExampleIndicators"
-                           data-bs-slide="prev">
-                       <span class="carousel-control-prev-icon" 
-                             aria-hidden="true">
-                         </span>
-                       <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" 
-                           data-bs-target="#carouselExampleIndicators"
-                           data-bs-slide="next">
-                       <span class="carousel-control-next-icon" 
-                             aria-hidden="true">
-                         </span>
-                       <span class="visually-hidden">Next</span>
-                    </button>
-                    </div>-->
+                 
                     
 
                     <div class="description" style="margin-top: 50px;">
@@ -490,13 +390,13 @@
             </div>
         </div> 
         <div style="margin-top: 10px;"></div>
-        <div class="container-fluid" style="background-color: rgb(54,54,54);">
+        <div class="container-fluid"  id="bggcolor">
             <div style="height: 500px;">
                 <div class="row">
                     <div class="col-3 offset-1">
                         <div style="margin-top: 100px;">
                             <h1><span style="color: white;">Javelin</span></h1>
-                            <span style="font-size: 22px;"><p style="color: rgb(161,161,151);">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur.</p></span>
+                            <span style="font-size: 22px;"><p id="fcolor" >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur.</p></span>
                             <div style="margin-top: 50px;">
                                 <span style="margin-right: 10px;"><i style="font-size:30px" class="fa">&#xf1f0;</i></span>
                                 <span style="margin-right: 10px;"><i style="font-size:30px" class="fa">&#xf1f1;</i></span>
@@ -505,7 +405,7 @@
                                 <span><i style="font-size:24px" class="fa">&#xf24b;</i></span>
                             </div>
                             <div style="margin-top: 20px;">
-                                <span style="color: rgb(161,161,151);"> <p>secure online payment</p></span>
+                                <span id="fcolor" > <p>secure online payment</p></span>
                             </div>
                             
                         </div>
@@ -513,15 +413,15 @@
                     </div>
                     <div class="col-3 offset-2">
                         <div style="margin-top: 100px;">
-                            <p style="font-weight: 1000;""><span style="color: white;">BEST EXPERIENCE</span></p>
+                            <p style="font-weight: 1000;"><span style="color: white;">BEST EXPERIENCE</span></p>
                             
-                            <div style="color: rgb(161,161,151);">
+                            <div id="fcolor" >
                                 <ul style="font-size: 20px;">
-                                    <li style="margin-top: 10px;">FAQ</li>
-                                    <li style="margin-top: 10px;">Shipmennt</li>
-                                    <li style="margin-top: 10px;">Returns</li>
-                                    <li style="margin-top: 10px;">Gift cards</li>
-                                    <li style="margin-top: 10px;">Policies</li>
+                                    <li id="footer">FAQ</li>
+                                    <li id="footer">Shipmennt</li>
+                                    <li id="footer">Returns</li>
+                                    <li id="footer">Gift cards</li>
+                                    <li id="footer">Policies</li>
                                 </ul>
                             </div>
                               
@@ -530,15 +430,15 @@
 
                     <div class="col-3 offest-1">
                         <div style="margin-top: 100px;">
-                            <p style="font-weight: 1000;""><span style="color: white;">COMPANY</span></p>
+                            <p style="font-weight: 1000;"><span style="color: white;">COMPANY</span></p>
 
-                            <div style="color: rgb(161,161,151);">
+                            <div id="fcolor" >
                                 <ul style="font-size: 20px;">
-                                    <li style="margin-top: 10px;">About us</li>
-                                    <li style="margin-top: 10px;">Press</li>
-                                    <li style="margin-top: 10px;">Offices</li>
-                                    <li style="margin-top: 10px;">Affliates</li>
-                                    <li style="margin-top: 10px;">Giveaway</li>
+                                    <li id="footer" >About us</li>
+                                    <li id="footer">Press</li>
+                                    <li id="footer">Offices</li>
+                                    <li id="footer">Affliates</li>
+                                    <li id="footer">Giveaway</li>
                                 </ul>
                             </div>
                         </div>

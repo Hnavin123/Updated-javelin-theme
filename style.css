@@ -5,8 +5,77 @@
     padding: 50px;
     
     background-color: rgb(43,43,43);
+    
   }
+  #top-margin{
+    margin-top: 150px;
+  }
+  .title-heading{
+    font-size: 80px;
+    
+  }
+.desc{
+  margin-top: 100px;
+  font-size: 30px;
+  color: white;
+}
+.disc{
+  margin-top: 50px;
+  color: white;
+}
+#about{
+  margin-top: 200px;
+}
+#abt{
+  color:  rgb(172,163,186);
+  font-weight: 1000;
+
+}
+.container-about{
+  text-align: center;
+}
+.col-perform{
+  font-size: 60px;
+}
+.row-abt{
+  margin-top: 50px;
+  text-align: center;
+}
+#features{
+  font-weight: 700;
+  font-size: 60px;
+}
+#sub-h{
+  font-weight: 700;
+}
+.wrist-band{
+  text-align: center;
+  margin-top: 100px;
   
+}
+#wristf{
+  font-weight: 700;
+}
+#wcolor{
+  color: white;
+  margin-top: 100px;
+}
+#wristbcolor{
+  background-color:rgb(43,43,43);
+}
+#bggcolor{
+  background-color: rgb(54,54,54);
+}
+#fcolor{
+  color: rgb(161,161,151);
+}
+#footer{
+  margin-top: 10px;
+}
+  .collapse{
+    justify-content: center;
+  }
+
   .navbar {
     background-color: rgb(0, 0, 0);
   }
