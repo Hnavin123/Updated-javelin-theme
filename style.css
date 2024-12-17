@@ -124,7 +124,8 @@
 
   /* Harsh Custom Class */
 .heading1{
-  font-size: 50px;
+  font-size: 60px;
+  font-weight: 700;
   margin-bottom: 50px;
 }
   .align-center{
@@ -138,3 +139,36 @@
     padding-top: 100px;
     padding-bottom: 100px;
   }
+
+  .design-image-description{
+    background-color: rgb(241,236,243);
+    padding-bottom: 200px;
+  }
+.features-and-experience{
+  padding-top: 200px;
+}
+.features{
+  font-size: 60px;
+  font-weight: 800;
+  margin-bottom: 50px;
+
+}
+.feature-heading{
+  margin-top: 100px;
+}
+.experience{
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+.video-description{
+  margin-top: 150px;
+  
+  background-color: rgb(243,242,244);
+}
+.work-desc{
+  margin-top: 150px;
+}
+.text{
+  font-size: 25px;
+  font-family: "Poppins";
+}
