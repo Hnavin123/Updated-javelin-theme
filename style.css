@@ -269,17 +269,18 @@
 }
 .contact{
   width: 100%;
-  height: 155px;
   background-color: #7d1eff
 }
+
 .contact-details{
-  width: 1170px;
-  height: 80px;
-  
-}
-.flex-container{
+  height: 100px;
   display: flex;
- justify-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner-item {
+  padding: 30px;
 }
 
 .footer{
