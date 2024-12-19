@@ -183,7 +183,39 @@
 }
 .container-box-theme{
   background-color: #2b2b2b;
+
 }
+.wrist-band{
+  margin-top: 55px;
+  color: white;
+  font: 14px;
+}
+.band-color{
+  font-size: 30px;
+  
+  text-align: center;
+  font-weight: 700;
+}
+#m-col{
+  color: #99FFEE;
+}
+#p-col{
+  color: #CEA9FF;
+}
+#g-col{
+  color: #F3B560;
+}
+.price{
+  color: white;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 21px;
+}
+#inner-img{
+  height: 190px;
+  width: 445px;
+}
+
 .button {
   background-color: #363636;
   border-color: white;
@@ -243,11 +275,13 @@
 .contact-details{
   width: 1170px;
   height: 80px;
+  
 }
-.contact-icon{
-  height: 60px;
-  width: 70px;
+.flex-container{
+  display: flex;
+ justify-content: center;
 }
+
 .footer{
   margin-top: 10px;
   height: 740px;
