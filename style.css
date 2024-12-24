@@ -211,7 +211,6 @@
 }
 .band-color{
   font-size: 30px;
-  
   text-align: center;
   font-weight: 700;
 }
@@ -301,10 +300,7 @@
   color: white;
 }
 .container footer-section{
-  display: flex;
-  /* height: 256.66
-  width: 306.02; */
-  
+  display: flex;  
   padding: 35px 15px 0px;
   padding-left: 28.6px;
   padding-right: 28.4px;
@@ -319,7 +315,6 @@ color: white;
 }
 #leftbox {
   float: left;
-  /* background: Red; */
   width: 33.33%;
   height: 306px;
   list-style-type: none;
@@ -330,7 +325,6 @@ color: white;
 
 #middlebox {
   float: left;
-  /* background: Green; */
   width: 33.33%;
   height: 306px;
   
@@ -341,7 +335,6 @@ color: white;
 
 #rightbox {
   float: right;
-  /* background: blue; */
   width: 33.33%;
   height: 306px;
   
